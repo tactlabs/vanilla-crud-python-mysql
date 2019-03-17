@@ -1,6 +1,7 @@
 # vanilla-crud-python-mysql
 Vanilla CRUD Python Mysql
 
+```
 CREATE USER tact WITH ENCRYPTED PASSWORD 'tact';
 GRANT ALL PRIVILEGES ON DATABASE test TO tact;
 
@@ -10,3 +11,4 @@ CREATE TABLE CITY(
 	STATE VARCHAR(50),
 	COUNTRY VARCHAR(50)
 );
+```
